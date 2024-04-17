@@ -1,0 +1,48 @@
+.bodysecond-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 90px;
+}
+.bodysecond-text-div{
+    flex: 1;
+    width: 600px;
+    margin: 0px 30px;
+}
+.bodysecond-text-div h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(94, 5, 5);
+}
+.bodysecond-text-div p{
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: rgb(5, 85, 114);
+}
+.bodysecond-text-div button{
+    display: inline-block;
+    min-height: 35px;
+    min-width: 150px;
+    border-color: #fff;
+    background-color: rgb(23, 135, 176);
+    color: #fff;
+    font-size: 15px;
+    padding: 0 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.bodysecond-text-div button:hover{
+    background-color:#fff;
+    color: rgb(23, 135, 176);
+    
+}
+.bodysecond-img-div{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+}
+.six-sigma-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

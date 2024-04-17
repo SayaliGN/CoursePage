@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1db8be;
+    padding: 15px 7%;
+}
+
+ul{
+    flex: 1; 
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 2px 2px;
+    font-size: 18px;
+    color: white;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search-box input{
+    padding: 4px;
+    border:  0;
+    outline: 0;
+    font-size: 15px;
+    max-width: 200px;
+}
